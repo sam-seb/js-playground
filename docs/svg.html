@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link rel="stylesheet" href="svg.css"/>
+        <title>svg</title>
+    </head>
+    <body>
+        <!--I genuinely don't understand SVG animations at all i dont get this. im so confused. I need help.-->
+        
+        
+        <svg width="200" height="180" xmlns="http://www.w3.org/2000/svg">
+            <rect x="20" y="20" height="110" width="110" style="fill:red">
+                <animateTransform
+                    attributeName="transform"
+                    begin="0s"
+                    dur="10s"
+                    type="rotate"
+                    from="0 85 85"
+                    to="360 85 85"
+                    repeatCount="indefinite" />
+                
+                <animate
+                    attributeName="cx"
+                    begin="0s"
+                    dur="8s"
+                    from="50"
+                    to="90%"
+                    repeatCount="indefinite" />
+            </rect>
+        </svg>
+        
+        
+        <!--attempting css svg animation-->
+        <!--im sorry i kind of took the entire graphic so i can play with the css myself-->
+        
+        <svg width="350" height="300" viewBox="0 0 115 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle id="yellowCircle" cx="57.5" cy="57.5" r="50" fill="yellow"/>  
+            <rect id="aquaRect" x="5" y="10" rx="10" ry="10" width="70" height="25" stroke-width="6" fill="transparent" stroke="#00CFFF"/>
+            <rect id="tealRect" x="50" y="20" rx="10" ry="10" width="60" height="70" stroke-width="5" fill="transparent" stroke="#5adbab"/>  
+            <path id="blueLine" d="M10,63 Q40,85 60,60 T105,63" stroke-width="5" fill="transparent" stroke="blue"/>
+            <ellipse id="pinkCircle" cx="35" cy="78" rx="20" ry="25" stroke-width="3" fill="transparent" stroke="pink"/>
+            <circle id="purpleCircle" cx="91.5" cy="90" r="20" fill="purple"/>
+        </svg>
+    </body>
+</html>

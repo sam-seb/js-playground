@@ -1,0 +1,33 @@
+:root{
+                --yellow: #FF0;
+                --aqua: #00CFFF;
+                --blue: #00F;
+               --pink: #ffc0cb;
+               --purple: #800080;
+               --teal: #5adbab;
+               --transparent: #5adbab00;           
+}
+
+
+#yellowCircle,
+            #aquaRect,
+             #tealRect,
+            #blueLine,
+            #pinkCircle,
+            #purpleCircle{
+                 transition: all 0.5s ease;
+            }
+
+
+svg:hover #tealRect{
+         transform:translate(-50%, -10%)
+        }
+
+svg:hover #aquaRect{
+        transform:translate(40%, 40%)
+        }
+        
+svg:hover #blueLine{
+                stroke:var(--pink);;
+                transform:translate(-0%, -30%)
+                }

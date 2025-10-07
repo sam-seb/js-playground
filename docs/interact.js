@@ -21,3 +21,11 @@ var toggle = document.getElementById("monkey");
   }
 }
 
+/*function deal() {
+    
+    var deal = getElementById("deal");
+    Math.floor(Math.random() * 22) + 1;
+    * 
+    * 
+    im workin on something... the haters will sabotage me
+}*/
